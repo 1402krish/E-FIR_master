@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0060C7"
+    tools:context=".SplashScreen">
+
+
+    <ImageView
+        android:id="@+id/appsplash"
+        android:layout_width="159dp"
+        android:layout_height="180dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/title" />
+
+    <TextView
+        android:id="@+id/appname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Online FIR"
+        android:textColor="#EFE4E4"
+        android:layout_below="@+id/appsplash"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        />
+
+
+</RelativeLayout>
